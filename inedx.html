@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Little Prince | A Timeless Story</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, serif;
+            background-color: #f8f5ed;
+            color: #24334a;
+            line-height: 1.8;
+        }
+
+        header {
+            background-color: #24334a;
+            color: #f8f5ed;
+            text-align: center;
+            padding: 65px 20px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #e4c98c;
+            font-size: 17px;
+        }
+
+        nav {
+            padding: 16px;
+            text-align: center;
+            background-color: #eae3d5;
+        }
+
+        nav a {
+            color: #24334a;
+            text-decoration: none;
+            margin: 0 14px;
+            font-weight: bold;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 35px 22px;
+        }
+
+        section {
+            margin-bottom: 55px;
+        }
+
+        h2 {
+            color: #9a7540;
+            margin-bottom: 18px;
+            font-size: 28px;
+        }
+
+        p {
+            margin-bottom: 16px;
+        }
+
+        .hero-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin: 25px 0;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #96703a;
+        }
+
+        footer {
+            background-color: #24334a;
+            color: #f8f5ed;
+            text-align: center;
+            padding: 25px;
+        }
+
+        @media (max-width: 650px) {
+            header h1 {
+                font-size: 30px;
+            }
+
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>The Little Prince</h1>
+        <p>A Timeless Story About Life, Love and Friendship</p>
+    </header>
+
+    <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#story">Story</a>
+        <a href="#author">Author</a>
+        <a href="#details">Details</a>
+    </nav>
+
+    <main>
+
+        <section id="about">
+            <h2>About the Book</h2>
+
+            <p>
+                The Little Prince is a beautiful and meaningful
+                story written by Antoine de Saint-Exupéry.
+                It explores friendship, love, imagination,
+                responsibility, and the importance of seeing
+                the world beyond appearances.
+            </p>
+
+            <img
+                class="hero-image"
+                src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=1200"
+                alt="Beautiful view of Earth from space surrounded by darkness"
+            >
+        </section>
+
+        <section id="story">
+            <h2>The Story</h2>
+
+            <p>
+                The story follows a young prince who travels
+                from his small planet to different worlds.
+                During his journey, he meets unusual characters
+                and learns important lessons about human nature.
+            </p>
+
+            <p>
+                Through his adventures, the story reminds
+                readers that friendship, kindness, and love
+                are among the most meaningful parts of life.
+            </p>
+        </section>
+
+        <section>
+            <h2>A Journey Through Imagination</h2>
+
+            <div class="gallery">
+
+                <img
+                    src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800"
+                    alt="Snow-covered mountain beneath a beautiful starry night sky"
+                >
+
+                <img
+                    src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=800"
+                    alt="Golden sunlight spreading across a peaceful landscape"
+                >
+
+                <img
+                    src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800"
+                    alt="Beautiful natural landscape with mountains and an open valley"
+                >
+
+            </div>
+        </section>
+
+        <section id="author">
+            <h2>About the Author</h2>
+
+            <p>
+                Antoine de Saint-Exupéry was a French writer
+                and aviator. He was born in 1900 and became
+                internationally known for his literary works.
+                The Little Prince was first published in 1943
+                and became one of the world's most beloved books.
+            </p>
+        </section>
+
+        <section>
+            <h2>Why Read This Book?</h2>
+
+            <ul>
+                <li>It teaches the importance of friendship.</li>
+                <li>It encourages imagination and curiosity.</li>
+                <li>It explores love and responsibility.</li>
+                <li>It reminds us to appreciate simple things.</li>
+            </ul>
+        </section>
+
+        <section id="details">
+            <h2>Book Information</h2>
+
+            <ul>
+                <li><strong>Title:</strong> The Little Prince</li>
+                <li><strong>Author:</strong> Antoine de Saint-Exupéry</li>
+                <li><strong>First Published:</strong> 1943</li>
+                <li><strong>Original Language:</strong> French</li>
+                <li><strong>Genre:</strong> Literary Fiction and Fable</li>
+            </ul>
+
+            <p>
+                Learn more about the book and its author at
+                <a href="https://www.britannica.com/topic/The-Little-Prince"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Encyclopaedia Britannica
+                </a>.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Created for the Introduction to HTML5 Final Project.</p>
+        <p>Discover the beauty of stories and imagination.</p>
+    </footer>
+
+</body>
+</html>
